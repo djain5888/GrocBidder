@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/GrocBidder/static/css/main.3c08fd47.css",
+    "main.js": "/GrocBidder/static/js/main.4c2aa2a7.js",
+    "static/js/453.44f0d2f8.chunk.js": "/GrocBidder/static/js/453.44f0d2f8.chunk.js",
+    "static/media/image1.png": "/GrocBidder/static/media/image1.d48f2538435d1258dceb.png",
+    "static/media/image4.png": "/GrocBidder/static/media/image4.e7fce379df991b77cc1b.png",
+    "static/media/image3.png": "/GrocBidder/static/media/image3.06b358852b720f29dd88.png",
+    "index.html": "/GrocBidder/index.html",
+    "main.3c08fd47.css.map": "/GrocBidder/static/css/main.3c08fd47.css.map",
+    "main.4c2aa2a7.js.map": "/GrocBidder/static/js/main.4c2aa2a7.js.map",
+    "453.44f0d2f8.chunk.js.map": "/GrocBidder/static/js/453.44f0d2f8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3c08fd47.css",
+    "static/js/main.4c2aa2a7.js"
+  ]
+}
