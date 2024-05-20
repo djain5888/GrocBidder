@@ -312,7 +312,8 @@ const GroceriesList = ({ token }) => {
     navigate('/add-grocery', { state: { authToken: getAuthToken() } });
   };
 
-  const toggleCard = (index) => {
+  const toggleCard = (e,index) => {
+    e.preventDefault()
     if (expandedCard === index) {
       setExpandedCard(null);
     } else {
@@ -419,7 +420,7 @@ const GroceriesList = ({ token }) => {
       <ul className="grocerycards">
         {groceries.map((item, index) => (
           <li key={index}>
-            <a href="#" className="card" onClick={() => toggleCard(index)}>
+            <a href="#" className="card" onClick={(e) => toggleCard(e,index)}>
               <img src={getRandomImage()} className="card__image" alt="" />
               <div className="card__overlay">
                 <div className="card__header">
