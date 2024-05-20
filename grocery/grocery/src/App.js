@@ -105,7 +105,7 @@ function App() {
   return (
     <div className="App">
       <UserProvider value={{ userProfile, setUserProfile, token, setToken }}>
-        <Router basename="/Groceries_Web">
+        <Router basename="/GrocBidder">
 
           <Layout> {/* Wrap your routes with the Layout component */}
             <Routes>
