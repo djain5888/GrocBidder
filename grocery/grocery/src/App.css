@@ -1,0 +1,15 @@
+/* .App {
+  
+  width: 100vw;
+   height: 100vh; 
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat; 
+  background-image: url("https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png");
+} */
+
+body {
+  background: #404142;
+  margin: 0;
+}
