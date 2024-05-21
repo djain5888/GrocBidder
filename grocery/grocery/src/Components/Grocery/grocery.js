@@ -426,7 +426,7 @@ const GroceriesList = ({ token }) => {
                 <div className="card__header">
                   <div className="card__header-text">
                     <h3 className="card__title">{item.itemName}</h3>
-                    <span className="card__min-price">Min Price: {item.minPrice}</span>
+                    <span className="card__min-price">Price: {item.minPrice}</span>
                   </div>
                 </div>
                 <div className="card__description">
