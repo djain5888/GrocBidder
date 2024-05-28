@@ -83,13 +83,14 @@
 .button-grocery{
   
   display: block;
-
+    
   margin-left: auto;
   margin-right: auto;
 }
 .button-container {
+  /* margin-top: 10%; */
   margin: 1%;
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   /* position: absolute; */
   top: 100%; /* Place it just below the title bar */
@@ -418,4 +419,10 @@
 	50% {
 		stroke-dashoffset: 40.84;
 	}
+}
+@media (max-width: 768px){
+  .button-container {
+    margin-top: 10%; /* Adjust margin for mobile */
+    /* Stack buttons vertically on mobile */
+  }
 }
